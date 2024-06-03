@@ -1,0 +1,105 @@
+body {
+    /* margin: 0 auto; */
+    font-family: roboto;
+}
+
+header {
+    /* width: 100%; */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    /* border: 1px solid black; */
+    top: 0;
+    background-color: black;
+}
+
+nav a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    /* font-family: roboto; */
+    font-weight: bold;
+}
+
+#title, #skills, #about, #projects, #contact {
+    margin-top: 50px;
+    text-align: center;
+}
+
+h1, #title h2 {
+    margin: 0 20px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+#title h2 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 35px;
+    margin: 0;
+}
+
+
+
+#skill-list-container {
+    display: flex;
+    justify-content: center;
+}
+
+#skills ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    justify-content: center;
+}
+
+#skills li {
+    margin: 10px;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+#about-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#headshot {
+    height: 300px;
+    margin-right: 15px;
+}
+
+#bio {
+    max-width: 700px;
+    text-align: left;
+}
+
+#bio-top {
+    margin: 0;
+}
+
+.logo {
+    height: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#up-icon {
+    height: 50px;
+    margin: 20px;
+}
